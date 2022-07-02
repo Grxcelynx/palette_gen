@@ -16,7 +16,7 @@
 	<title>Document</title>
 </head> -->
 
-<body>
+<div class="main">
 	<h1 id="heading">Hex Color Generator</h1>
 	<div class="container">
 		<h1 id="color">
@@ -26,5 +26,5 @@
 			Generate
 		</button>
 	</div>
-</body>
+</div>
 

@@ -5,7 +5,7 @@ document.querySelector("#clickMe").addEventListener("click", function () {
 	for (let i = 0; i < 6; i++) {
 		hexColor += colorArray[randomValue()];
 	}
-	document.body.style.backgroundColor = hexColor;
+	document.main.style.backgroundColor = hexColor;
 	document.querySelector("#value").innerHTML = hexColor;
 	document.querySelector("#value").style.color = hexColor;
 });
